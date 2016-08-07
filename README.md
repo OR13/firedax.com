@@ -2,9 +2,9 @@
 
 # GDAX Realtime Order Book in Angular2, AngularFire2, and Firebase
 
-Thanks to Richard Park for the original [todo-angular2-firebase](https://github.com/r-park/todo-angular2-firebase).
+[![CircleCI](https://circleci.com/gh/OR13/firedax.com.svg?style=shield&circle-token=a4772b0f3e0a6eff62abbda8e416cdca7a974552)](https://circleci.com/gh/OR13/firedax.com)
 
-CIRCLE CI GOES HERE...
+Thanks to Richard Park for the original [todo-angular2-firebase](https://github.com/r-park/todo-angular2-firebase).
 
 - Angular2 `2.0.0-rc.4`
 - Angular2 Router `3.0.0-beta.2`

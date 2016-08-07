@@ -77,5 +77,8 @@
     "webpack-md5-hash": "~0.0.5",
     "winston": "~2.2.0",
     "zone.js": "~0.6.12"
+  },
+  "dependencies": {
+    "tslint": "^3.14.0"
   }
 }
