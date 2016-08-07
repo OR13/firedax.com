@@ -1,6 +1,6 @@
 
 
-# GDAX Realtime Order Book in Angular2, AngularFire2, and Firebase
+# GDAX Realtime Order Book in Angular2 and Firebase
 
 [![CircleCI](https://circleci.com/gh/OR13/firedax.com.svg?style=shield&circle-token=a4772b0f3e0a6eff62abbda8e416cdca7a974552)](https://circleci.com/gh/OR13/firedax.com)
 
