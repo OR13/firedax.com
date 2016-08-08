@@ -15,3 +15,10 @@ import 'rxjs/add/operator/take';
 
 // AngularFire2
 import 'angularfire2';
+
+// D3
+import 'd3';
+import 'nvd3';
+import 'ng2-nvd3';
+
+
