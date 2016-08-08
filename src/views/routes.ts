@@ -12,7 +12,7 @@ import { Chart } from './chart';
 const routes: RouterConfig = [
   { path: '', component: SignIn, canActivate: [UnauthGuard] },
   { path: 'tasks', component: Tasks, canActivate: [AuthGuard] },
-  { path: 'chart', component: Chart, canActivate: [UnauthGuard] },
+  { path: 'chart', component: Chart, canActivate: [UnauthGuard] }
 ];
 
 export const ROUTER_PROVIDERS = [
