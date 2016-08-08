@@ -16,6 +16,8 @@ import { nvD3 } from 'ng2-nvd3'
         selector: 'firedax-chart',
         template: `
                 <nvd3 [options]="options" [data]="data"></nvd3>
+
+              
   `
 })
 export class Chart {
@@ -241,7 +243,8 @@ export class Chart {
                 };
 
 
-                var margin = {top: 20, right: 20, bottom: 30, left: 50},
+                setTimeout(function(){
+    var margin = {top: 20, right: 20, bottom: 30, left: 50},
             width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
@@ -265,13 +268,13 @@ export class Chart {
             .scale(y)
             .orient("left");
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("#techan").append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.csv("", function(error, data) {
+    d3.csv("https://raw.githubusercontent.com/OR13/firedax.com/master/src/assets/data.csv", function(error, data) {
         var accessor = ohlc.accessor();
 
         data = data.slice(0, 200).map(function(d) {
@@ -308,6 +311,10 @@ export class Chart {
                 .style("text-anchor", "end")
                 .text("Price ($)");
     });
+                }, 2000)
+
+
+            
 
         }
 }
