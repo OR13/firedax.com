@@ -47,3 +47,7 @@ Commands
 |`npm test`|Run unit tests with Karma and Jasmine|
 |`npm run test:watch`|Run unit tests with Karma and Jasmine; watch for changes to re-run tests|
 |`npm run typings`|Install ambient typings|
+
+
+http://krispo.github.io/ng2-nvd3/
+http://bl.ocks.org/andredumas/ef212e7c26d2b7ba5403
