@@ -2,8 +2,6 @@ import { enableProdMode } from '@angular/core';
 import { disableDeprecatedForms, provideForms } from '@angular/forms';
 import { bootstrap } from '@angular/platform-browser-dynamic';
 
-
-
 // core
 import { AUTH_PROVIDERS } from './core/auth';
 import { FIREBASE_APP_PROVIDERS } from './core/firebase';
@@ -18,11 +16,9 @@ import { App } from './views/app';
 // common styles
 import './views/common/styles.scss';
 
-
 if (process.env.NODE_ENV === 'production') {
   enableProdMode();
 }
-
 
 bootstrap(App, [
   disableDeprecatedForms(),
@@ -32,3 +28,4 @@ bootstrap(App, [
   ROUTER_PROVIDERS,
   TASKS_PROVIDERS
 ]).catch((error: Error) => console.error(error));
+
