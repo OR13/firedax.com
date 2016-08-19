@@ -4,7 +4,7 @@
 [![Issue Stats](http://issuestats.com/github/OR13/firedax.com/badge/issue?style=flat)](http://issuestats.com/github/OR13/firedax.com) 
 [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/OR13/angular-2-webpack-starter)
 
-[Based On](https://github.com/AngularClass/angular2-webpack-starter/tree/material2)
+### [Thanks to AngularClass!](https://github.com/AngularClass/angular2-webpack-starter/tree/material2)
 
 * Best practices in file and application organization for Angular 2.
 * Ready to go build system using Webpack for working with TypeScript.
