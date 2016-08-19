@@ -40,17 +40,19 @@ import { AppState } from './app.service';
         <router-outlet></router-outlet>
       </main>
 
-      <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
+      <pre class="app-state">
+      <!-- this.appState.state = {{ appState.state | json }} -->
+      </pre>
 
       <footer>
-        <span id="footerText"><a [href]="url">Github</a></span>
-        <img [src]="angularclassLogo" width="6%">
+        <span id="footerText">
+          <a [href]="url">  <md-icon>code</md-icon></a>
+        </span>
       </footer>
     </md-content>
   `
 })
 export class App {
-  angularclassLogo = 'assets/img/angularclass-avatar.png';
   loading = false;
   name = 'FireDax';
   url = 'https://github.com/OR13/firedax.com';
