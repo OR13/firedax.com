@@ -4,8 +4,12 @@
 [![Issue Stats](http://issuestats.com/github/OR13/firedax.com/badge/issue?style=flat)](http://issuestats.com/github/OR13/firedax.com) 
 [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/OR13/angular-2-webpack-starter)
 
-### [Thanks to AngularClass!](https://github.com/AngularClass/angular2-webpack-starter/tree/material2)
+## [Thanks to AngularClass!](https://github.com/AngularClass/angular2-webpack-starter/tree/material2)
 
+### Reference:
+* [material2](https://github.com/jelbourn/material2-app/blob/master/src/app/material2-app.component.html)
+
+### Features
 * Best practices in file and application organization for Angular 2.
 * Ready to go build system using Webpack for working with TypeScript.
 * Angular 2 examples that are ready to go when experimenting with Angular 2.
